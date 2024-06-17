@@ -1,0 +1,29 @@
+h1 {
+  color: red;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  font-weight: 400; }
+
+p {
+  color: red;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  font-weight: 400; }
+
+a {
+  color: red;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  font-weight: 400;
+  text-decoration: none; }
+
+div ul {
+  background-color: antiquewhite; }
+  div ul li {
+    list-style: none;
+    color: #CF1F57;
+    display: inline-block;
+    text-transform: uppercase; }
+    div ul li a {
+      color: #CF1F57;
+      text-decoration: none; }

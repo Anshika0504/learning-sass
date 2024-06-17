@@ -1,0 +1,36 @@
+@import 'variables.scss';
+@import 'mixin.scss';
+
+h1{
+   @include commonproperty;
+}
+p{
+    @include commonproperty;  
+}
+a{
+    @include commonproperty; 
+    text-decoration: none; 
+}
+div{
+ul{
+    background-color: antiquewhite;
+    li{
+        list-style:none;
+        color: $color-menu;
+        display: inline-block;
+        text-transform: uppercase;
+        a{
+            color: $color-menu;
+            text-decoration: none;
+        }
+    }
+}
+}
+
+//mixins and include
+//mixins contains common properties which are used in various components.
+//@include will be used whenever those propertties have been used in the components.
+//Note we can include other properties as well with include there is no boundation in that
+
+
+
